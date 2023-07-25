@@ -47,7 +47,7 @@ const app = Vue.createApp({
             return date.toLocaleString('default', { month: 'short', day: 'numeric', year: 'numeric' });
         },
         fix_full_text(item) {
-            const media = item.full_text.replace(/\.\.\/\.\.\/tweets_media\//g,'b0rk/tweets_media/');
+            const media = item.full_text.replace(/\.\.\/\.\.\/tweets_media\//g,'tweets_media/');
             return media;
         },
         search(event) {
