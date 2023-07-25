@@ -1,0 +1,4 @@
+
+.icon-heart:before { content: '\e800'; } /* '' */
+.icon-retweet:before { content: '\e801'; } /* '' */
+.icon-search:before { content: '\e802'; } /* '' */
