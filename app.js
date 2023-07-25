@@ -53,7 +53,10 @@ const app = Vue.createApp({
         search(event) {
             event.preventDefault();
         },
-        url(item) {
+        local_url(item) {
+            return "./b0rk/status/" + item.id_str;
+        },
+        twitter_url(item) {
             return "https://twitter.com/b0rk/status/" + item.id_str;
         },
     }
