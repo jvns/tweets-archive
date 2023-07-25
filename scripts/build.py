@@ -65,7 +65,9 @@ def get_page(item):
   </div>
 </body>
 </html>
-"""
+""".replace(
+        "../../tweets_media", "../../../tweets_media"
+    )
 
 
 def main():
