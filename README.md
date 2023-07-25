@@ -12,7 +12,7 @@ I got those from [this tool by Darius Kazemi](https://tinysubversions.com/twitte
 ### how to set it up
 
 1. Get your twitter archive from Twitter (at this point I think their archive tool doesn't work anymore, so ideally you got it in 2022)
-1. Use Darius Kazemi's [twitter archive tool](https://tinysubversions.com/twitter-archive/make-your-own/) to generate a zip file, and unzip it into a directory, let's call it ARCHIVE_DIR
+2. Use Darius Kazemi's [twitter archive tool](https://tinysubversions.com/twitter-archive/make-your-own/) to generate a zip file, and unzip it into a directory, let's call it ARCHIVE_DIR
 3. 
   ```
   git clone https://github.com/jvns/tweets-archive
@@ -21,3 +21,10 @@ I got those from [this tool by Darius Kazemi](https://tinysubversions.com/twitte
   cp -R ARCHIVE_DIR/TWITTER_USERNAME/tweets_media .
   ```
 4. Edit `index.html` and replace "julia" with your name
+
+### themes
+
+It literally copies all of the CSS from https://nitter.net so you should be able to
+use any of Nitter's [themes](https://github.com/zedeus/nitter/tree/master/public/css/themes). Just
+copy the CSS file and replace `twitter.css` in the `index.html` with the theme
+of your choice.
