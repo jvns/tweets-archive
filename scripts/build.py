@@ -57,7 +57,7 @@ def get_page(item):
             <div class="tweet-content media-body" dir="auto"> {item['full_text']} </div>
             <div class="tweet-stats">
               <span class="tweet-stat"><div class="icon-container"><span class="icon-retweet" title=""></span> {item['retweet_count']}</div></span>
-              <span class="tweet-stat"><div class="icon-container"><span class="icon-heart" title=""></span> {item['retweet_count']}</div></span>
+              <span class="tweet-stat"><div class="icon-container"><span class="icon-heart" title=""></span> {item['favorite_count']}</div></span>
             </div>
         </div>
       </div>
