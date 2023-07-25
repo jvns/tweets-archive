@@ -2,7 +2,7 @@
 
 Powers https://tweets.jvns.ca
 
-To work, you need two things:
+To make it work, you need two things:
 
 1. a `searchDocuments.js` with your tweets
 1. a `tweets_media` directory
