@@ -13,5 +13,5 @@ Powers https://tweets.jvns.ca
   cp ARCHIVE_DIR/searchDocuments.js .
   cp -R ARCHIVE_DIR/TWITTER_USERNAME/tweets_media .
   ```
-4. Edit `index.html` and replace `YOUR NAME` with your name
+4. Edit `index.html` and replace "julia" with your name
 
