@@ -52,7 +52,10 @@ const app = Vue.createApp({
         },
         search(event) {
             event.preventDefault();
-        }
+        },
+        url(item) {
+            return "https://twitter.com/b0rk/status/" + item.id_str;
+        },
     }
 })
 app.mount('#app')

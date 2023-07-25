@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>YOUR NAME's twitter archive</title>
+  <title>julia's twitter archive</title>
   <link rel="stylesheet" href="nitter.css">
   <link rel="stylesheet" href="twitter.css">
   <link rel="stylesheet" href="fonts/css/fontello.css">
@@ -13,7 +13,7 @@
 </head>
 <body>
   <div class="wrapper" id="app">
-    <h1>YOUR NAME's twitter archive</h1>
+    <h1>julia's twitter archive</h1>
 
     <div class="search-bar">
       <form>
@@ -23,16 +23,16 @@
     </div>
     <div class="timeline" ref="timeline" style="display: none">
       <div class="timeline-item" v-for="item in currentTweets()">
-        <a class="tweet-link" :href="'https://nitter.net/b0rk/status/' + item.id_str"></a>
+        <a class="tweet-link" :href="url(item)"></a>
         <div class="tweet-body">
           <div><div class="tweet-header">
-              <a class="tweet-avatar" href="/b0rk"><img class="avatar round" src="profile.jpg" alt=""></a>
+              <a class="tweet-avatar" href="/"><img class="avatar round" src="profile.jpg" alt=""></a>
               <div class="tweet-name-row">
                 <div class="fullname-and-username">
-                  <a class="fullname" href="/b0rk" title="🔎Julia Evans🔍">🔎Julia Evans🔍</a>
-                  <a class="username" href="/b0rk" title="@b0rk">@b0rk</a>
+                  <a class="fullname" href="/" title="🔎Julia Evans🔍">🔎Julia Evans🔍</a>
+                  <a class="username" href="/" title="@b0rk">@b0rk</a>
                 </div>
-                <span class="tweet-date"><a href="/b0rk/status/1678023395152125953#m" title="${date}">{{shortDate(item.created_at)}}</a></span>
+                <span class="tweet-date"><a :href="url(item)" title="${date}">{{shortDate(item.created_at)}}</a></span>
               </div>
             </div></div>
             <div class="tweet-content media-body" dir="auto" v-html="fix_full_text(item)"> </div>
