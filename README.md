@@ -2,6 +2,13 @@
 
 Powers https://tweets.jvns.ca
 
+To work, you need two things:
+
+1. a `searchDocuments.js` with your tweets
+1. a `tweets_media` directory
+
+I got those from [this tool by Darius Kazemi](https://tinysubversions.com/twitter-archive/make-your-own/)
+
 ### how to set it up
 
 1. Get your twitter archive from Twitter (at this point I think their archive tool doesn't work anymore, so ideally you got it in 2022)
@@ -14,4 +21,3 @@ Powers https://tweets.jvns.ca
   cp -R ARCHIVE_DIR/TWITTER_USERNAME/tweets_media .
   ```
 4. Edit `index.html` and replace "julia" with your name
-
