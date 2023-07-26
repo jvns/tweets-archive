@@ -13,7 +13,7 @@ I got those from [this tool by Darius Kazemi](https://tinysubversions.com/twitte
 
 ### how to set it up
 
-1. Get your twitter archive from Twitter (at this point I think their archive tool doesn't work anymore, so ideally you got it in 2022)
+1. Get your twitter archive from Twitter (seems to still be working as of July 25, 2023)
 2. Use Darius Kazemi's [twitter archive tool](https://tinysubversions.com/twitter-archive/make-your-own/) to generate a zip file, and unzip it into a directory, let's call it ARCHIVE_DIR
 3. 
   ```
