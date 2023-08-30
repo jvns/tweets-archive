@@ -26,6 +26,7 @@ I got those from [this tool by Darius Kazemi](https://tinysubversions.com/twitte
   ```
 4. Edit `index.html` and replace "julia" with your name, also replace the profile pic / "Julia Evans" / `b0rk` with your information
 5. Also you'll need to edit `build.py` and rerun it
+6. Also `b0rk` is hardcoded into the `app.js`, replace it with your username
 
 ### themes
 
