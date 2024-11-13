@@ -1,6 +1,7 @@
 .wrapper {
     max-width: 566px;
     margin: auto;
+    position: relative;
 }
 
 h1 {
@@ -8,6 +9,23 @@ h1 {
     font-family: sans-serif;
     margin: 1rem;
     display: block;
+}
+
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+#source {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    display: block;
+}
+
+#source img {
+    height: 20px;
+    width: 20px;
 }
 
 body {
