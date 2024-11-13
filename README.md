@@ -21,7 +21,6 @@ I got those from [this tool by Darius Kazemi](https://tinysubversions.com/twitte
   cd tweets-archive
   cp ARCHIVE_DIR/searchDocuments.js .
   cp -R ARCHIVE_DIR/TWITTER_USERNAME/tweets_media .
-  # build all of the individual tweet HTML pages
   ```
 4. Edit `app.js`, `index.html`, and `build.py` to replace my information with your information (described in the next section)
 5. Run `python3 scripts/build.py`
