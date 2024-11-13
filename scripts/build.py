@@ -39,6 +39,7 @@ def get_page(item):
 <body>
   <div class="wrapper" id="app">
     <h1><a href="../../..">julia's twitter archive</a></h1>
+    <a id="source" href="https://github.com/jvns/tweets-archive"> <img alt="source code" src="../../../github-mark.png">  </a>
 
     <div class="timeline">
       <div class="timeline-item">
